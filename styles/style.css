@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #091428;
+  color: white;
+  font-size: 20px;
+  font-family: "Beaufort for LOL", serif;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.frame {
+  width: fit-content;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+h2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #785A28;
+}
+
+#class-buttons {
+  padding-bottom: 1rem;
+}
+
+.btn {
+  width: fit-content;
+  color: #A09B8C;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.champion-info {
+  background-color: #0A323C;
+  width: 250px;
+}
+
+.champion-name {
+  padding: 20px 0 20px 20px;
+}
+
+.champion-price {
+  padding-right: 20px;
+}
+
+.be-price {
+  color: #C8AA6E;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.be-price img {
+  margin-top: -4px;
+  height: 18px;
+}
+
+.rp-price {
+  color: #C8AA6E;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin-left: 3px;
+}
+
+.rp-price img {
+  margin-top: -3px;
+  width: 14px;
+}
