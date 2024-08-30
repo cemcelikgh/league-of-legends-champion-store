@@ -46,15 +46,15 @@ async function loadAllChampions() {
     let champ = document.createElement('div');
     champ.className = `frame champion ${champion.classes}`;
     champ.innerHTML = `<div>
-  <img src='./assets/${champion.image}' alt='${champion.name}'>
+  <img src='./assets/champions/${champion.image}' alt='${champion.name}'>
 </div>
 <div class='champion-info d-flex justify-content-between'>
   <div class='champion-name'>
     ${champion.name}
   </div>
   <div class='champion-price d-flex flex-column justify-content-evenly'>
-    <div class='be-price'><img src='./assets/blue_essence.png' alt='blue_essence'> ${champion.BE}</div>
-    <div class='rp-price'><img src='./assets/riot_point.png' alt='blue_essence'> ${champion.RP}</div>
+    <div class='be-price'><img src='./assets/prices/blue_essence.png' alt='blue_essence'> ${champion.BE}</div>
+    <div class='rp-price'><img src='./assets/prices/riot_point.png' alt='blue_essence'> ${champion.RP}</div>
   </div>
 </div>`;
   showcase.appendChild(champ);

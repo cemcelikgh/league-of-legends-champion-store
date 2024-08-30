@@ -1,6 +1,7 @@
-# league_of_legends_champion_store-kodluyoruz-patika
-Patika.dev JavaScript Ödev 3
+# league-of-legends-champion-store
+Patika Beginner Frontend Web Development Path Certification Task
+<br>League of Legends Champion Store
 
-https://www.patika.dev https://kodluyoruz.org
+Browse: <https://cemcelikgh.github.io/league-of-legends-champion-store/>
 
-![league_of_legends_champion_store](./league_of_legends_champion_store.jpg)
+[![League of Legends Champion Store Preview](./assets/league-of-legends-champion-store-preview.jpg "Browse League of Legends Champion Store")](https://cemcelikgh.github.io/league-of-legends-champion-store/)

@@ -2,15 +2,18 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Beaufort for LOL BI";
+  src: url('../assets/beaufort-for-lol/BeaufortforLOL-BoldItalic.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
   background-color: #091428;
   color: white;
+  font-family: "Beaufort for LOL BI", serif;
   font-size: 20px;
-  font-family: "Beaufort for LOL", serif;
-  font-style: italic;
-  font-weight: 800;
   letter-spacing: 0.05em;
 }
 
@@ -25,7 +28,6 @@ h2 {
   padding-bottom: 1rem;
   text-align: center;
   font-size: 3rem;
-  font-weight: 600;
   color: #785A28;
 }
 
@@ -33,11 +35,20 @@ h2 {
   padding-bottom: 1rem;
 }
 
+@font-face {
+  font-family: "Beaufort for LOL I";
+  src: url('../assets/beaufort-for-lol/BeaufortforLOL-Italic.ttf') format('truetype');
+}
+
 .btn {
   width: fit-content;
   color: #A09B8C;
+  font-family: "Beaufort for LOL I";
   font-size: 1.5rem;
-  font-weight: 200;
+}
+
+.btn:hover {
+  color: #C8AA6E;
 }
 
 .champion-info {
@@ -56,8 +67,6 @@ h2 {
 .be-price {
   color: #C8AA6E;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
   letter-spacing: 0.03em;
 }
 
@@ -69,8 +78,6 @@ h2 {
 .rp-price {
   color: #C8AA6E;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
   letter-spacing: 0.03em;
   margin-left: 3px;
 }
